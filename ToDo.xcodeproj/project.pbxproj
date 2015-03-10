@@ -16,6 +16,7 @@
 		100B89271AAF38D1000A1530 /* ToDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100B89261AAF38D1000A1530 /* ToDoTests.m */; };
 		10A224C11AAF4C25009EFD60 /* AddCheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A224C01AAF4C25009EFD60 /* AddCheckListViewController.m */; };
 		10A224CA1AAF4DB4009EFD60 /* CheckListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A224C91AAF4DB4009EFD60 /* CheckListTableViewController.m */; };
+		10A224CD1AAF5060009EFD60 /* CheckListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A224CC1AAF5060009EFD60 /* CheckListItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		10A224C01AAF4C25009EFD60 /* AddCheckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCheckListViewController.m; sourceTree = "<group>"; };
 		10A224C81AAF4DB4009EFD60 /* CheckListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListTableViewController.h; sourceTree = "<group>"; };
 		10A224C91AAF4DB4009EFD60 /* CheckListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListTableViewController.m; sourceTree = "<group>"; };
+		10A224CB1AAF5060009EFD60 /* CheckListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListItem.h; sourceTree = "<group>"; };
+		10A224CC1AAF5060009EFD60 /* CheckListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				100B89111AAF38D0000A1530 /* ViewController.h */,
 				100B89121AAF38D0000A1530 /* ViewController.m */,
 				100B89141AAF38D0000A1530 /* Main.storyboard */,
+				10A224CB1AAF5060009EFD60 /* CheckListItem.h */,
+				10A224CC1AAF5060009EFD60 /* CheckListItem.m */,
 				10A224C81AAF4DB4009EFD60 /* CheckListTableViewController.h */,
 				10A224C91AAF4DB4009EFD60 /* CheckListTableViewController.m */,
 				10A224BF1AAF4C25009EFD60 /* AddCheckListViewController.h */,
@@ -230,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				100B89131AAF38D0000A1530 /* ViewController.m in Sources */,
+				10A224CD1AAF5060009EFD60 /* CheckListItem.m in Sources */,
 				10A224CA1AAF4DB4009EFD60 /* CheckListTableViewController.m in Sources */,
 				10A224C11AAF4C25009EFD60 /* AddCheckListViewController.m in Sources */,
 				100B89101AAF38D0000A1530 /* AppDelegate.m in Sources */,
